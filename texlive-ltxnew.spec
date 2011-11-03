@@ -1,3 +1,9 @@
+# revision 21586
+# category Package
+# catalog-ctan /macros/latex/contrib/ltxnew
+# catalog-date 2011-03-02 16:08:00 +0100
+# catalog-license lppl1.3
+# catalog-version 1.3
 Name:		texlive-ltxnew
 Version:	1.3
 Release:	1
@@ -49,6 +55,7 @@ all kind of control sequences. Please refer to the section
 #- source
 %doc %{_texmfdistdir}/source/latex/ltxnew/ltxnew.dtx
 %doc %{_texmfdistdir}/source/latex/ltxnew/ltxnew.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -59,3 +66,5 @@ all kind of control sequences. Please refer to the section
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
