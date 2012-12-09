@@ -55,3 +55,17 @@ all kind of control sequences. Please refer to the section
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.3-2
++ Revision: 753577
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.3-1
++ Revision: 718916
+- texlive-ltxnew
+- texlive-ltxnew
+- texlive-ltxnew
+- texlive-ltxnew
+
