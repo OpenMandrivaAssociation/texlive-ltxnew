@@ -6,7 +6,7 @@
 # catalog-version 1.3
 Name:		texlive-ltxnew
 Version:	1.3
-Release:	9
+Release:	10
 Summary:	A simple means of creating commands
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ltxnew
