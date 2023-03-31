@@ -1,6 +1,6 @@
 Name:		texlive-ltxnew
 Version:	21586
-Release:	1
+Release:	2
 Summary:	A simple means of creating commands
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ltxnew
