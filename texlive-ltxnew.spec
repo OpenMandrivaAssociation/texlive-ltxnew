@@ -3,7 +3,7 @@ Version:	21586
 Release:	2
 Summary:	A simple means of creating commands
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ltxnew
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/ltxnew
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ltxnew.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ltxnew.doc.r%{version}.tar.xz
